@@ -2,6 +2,13 @@
 library(shiny)
 library(ggplot2)
 require(pairsD3)
+library(dplyr)
+library(d3heatmap)
+library(parcoords)
+require(pairsD3)
+library(plotly)
+library(tidyr)
+library(leaflet)
 
 
 shinyServer(function(input, output) {
